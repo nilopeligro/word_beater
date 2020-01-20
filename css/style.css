@@ -1,0 +1,62 @@
+body{
+	background: #000;
+	color:#fff;
+	text-align:center;
+	width:100%;
+	margin:auto;
+	font-family:arial, sans-serif;
+}
+header{
+	background:#4682B4;
+	margin-top:0px;
+	padding:1px;
+	color:#fff;
+}
+header h1{
+	font-size:50px;
+	margin:10px;
+}
+.container .word1{
+	padding-top:30px;
+	font-size:20px;
+}
+.text-succes#seconds{
+	color:red;
+}
+h2{
+	font-size:50px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+input{
+	padding:5px;
+	width:350px;
+	border-radius:8px;
+	height:30px;
+}
+input[placeholder="Start typing..."]{
+	font-size:20px;
+	font-family:arial, sans-serif;
+	font-style:bold;
+}
+.mt-3#message{
+	font-size:30px;
+	color:red;
+	margin:0;
+	margin-top:10px;
+}
+.left h3{
+	margin-top:10px;
+}
+.instruct{
+	background:#4682B4;
+	border-radius:5px;
+	width:40%;
+	margin:auto;
+	padding:10px;
+	color:#000;
+	margin-bottom:30px;
+}
+.instruct p{
+	line-height:1.4em;
+}

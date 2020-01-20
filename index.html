@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<title>WordBeater</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+	<header>
+		<h1>WordBeater</h1>
+	</header>
+<body>
+	<div class="container">
+		<p class="word1">Type the word within <span class="text-succes" id="seconds"> 5 </span> seconds</p>
+		<h2 class="display-2" id="current-word">hello</h2>
+		<input type="text" class="form-control form-control-lg" placeholder="Start typing..." id="word-input" autofocus>
+		<h4 class="mt-3" id="message"></h4>
+
+		<div class="left">
+			<div>
+				<h3>Time left:
+				<span id="time">0
+				</span></h3>
+			</div>
+			<div>
+				<h3>Score:
+				<span id="score">0
+				</span></h3>
+			</div>
+		</div>
+		
+
+		<div class="instruct">
+			<div>
+				<h1>Instructions</h2>
+				<p>Type the given word within the certain given time. When game over, your score will be reset after you type the next word and play again. Good luck!</p>
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/main.js"></script>
+</body>
+</html>
